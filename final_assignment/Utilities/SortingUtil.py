@@ -64,7 +64,7 @@ def heapify(dataFrame, size, index):
     left_heap = 2 * index + 1     
     right_heap = 2 * index + 2     
 
-    if left_heap < size and dataFrame[index] < dataFrame[index]:
+    if left_heap < size and dataFrame[index] < dataFrame[left_heap]:
 
         largest = left_heap
 
